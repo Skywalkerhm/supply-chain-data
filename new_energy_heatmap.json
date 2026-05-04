@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-01 11:43 HKT",
+  "updated": "2026-05-04 11:35 HKT",
   "total_tracked": 95,
   "total_fetched": 94,
   "stocks": [
@@ -20,7 +20,7 @@
       "sector": "锂资源",
       "price": 80.03,
       "change_pct": 5.97,
-      "pe": 26.88,
+      "pe": 27.17,
       "currency": "CNY"
     },
     {
@@ -30,7 +30,7 @@
       "sector": "锂资源",
       "price": 39.29,
       "change_pct": -0.53,
-      "pe": 20.15,
+      "pe": 19.55,
       "currency": "CNY"
     },
     {
@@ -50,7 +50,7 @@
       "sector": "钴镍",
       "price": 18.62,
       "change_pct": -2.97,
-      "pe": 12.06,
+      "pe": 11.87,
       "currency": "CNY"
     },
     {
@@ -140,7 +140,7 @@
       "sector": "电解液",
       "price": 60.51,
       "change_pct": 2.01,
-      "pe": 20.25,
+      "pe": 15.39,
       "currency": "CNY"
     },
     {
@@ -238,9 +238,9 @@
       "name": "中创新航",
       "chain": "lithium",
       "sector": "动力电池",
-      "price": 35.4,
-      "change_pct": -3.01,
-      "pe": 15.24,
+      "price": 35.56,
+      "change_pct": 0.45,
+      "pe": 15.28,
       "currency": "HKD"
     },
     {
@@ -260,7 +260,7 @@
       "sector": "动力电池",
       "price": 36.74,
       "change_pct": -2.68,
-      "pe": 43.22,
+      "pe": 24.74,
       "currency": "CNY"
     },
     {
@@ -318,9 +318,9 @@
       "name": "协鑫科技",
       "chain": "solar",
       "sector": "硅料",
-      "price": 0.9,
-      "change_pct": -5.26,
-      "pe": 12.48,
+      "price": 0.93,
+      "change_pct": 3.33,
+      "pe": 12.88,
       "currency": "HKD"
     },
     {
@@ -330,7 +330,7 @@
       "sector": "硅片/组件",
       "price": 16.46,
       "change_pct": -0.54,
-      "pe": 24.56,
+      "pe": 23.18,
       "currency": "CNY"
     },
     {
@@ -400,7 +400,7 @@
       "sector": "组件",
       "price": 14.43,
       "change_pct": 0.42,
-      "pe": 13.04,
+      "pe": 13.1,
       "currency": "CNY"
     },
     {
@@ -428,9 +428,9 @@
       "name": "信义光能",
       "chain": "solar",
       "sector": "玻璃",
-      "price": 2.86,
-      "change_pct": -3.7,
-      "pe": 10.88,
+      "price": 3.05,
+      "change_pct": 6.64,
+      "pe": 11.61,
       "currency": "HKD"
     },
     {
@@ -438,9 +438,9 @@
       "name": "福莱特",
       "chain": "solar",
       "sector": "玻璃",
-      "price": 8.97,
-      "change_pct": -1.1,
-      "pe": 9.2,
+      "price": 9.22,
+      "change_pct": 2.79,
+      "pe": 7.79,
       "currency": "HKD"
     },
     {
@@ -500,7 +500,7 @@
       "sector": "设备",
       "price": 238.88,
       "change_pct": 7.91,
-      "pe": 33.73,
+      "pe": 36.73,
       "currency": "CNY"
     },
     {
@@ -550,7 +550,7 @@
       "sector": "逆变器",
       "price": 150.63,
       "change_pct": 2.03,
-      "pe": 24.73,
+      "pe": 23.5,
       "currency": "CNY"
     },
     {
@@ -650,7 +650,7 @@
       "sector": "二次设备",
       "price": 25.97,
       "change_pct": -2.44,
-      "pe": 19.54,
+      "pe": 19.68,
       "currency": "CNY"
     },
     {
@@ -700,7 +700,7 @@
       "sector": "水电",
       "price": 27.32,
       "change_pct": 2.05,
-      "pe": 17.81,
+      "pe": 17.78,
       "currency": "CNY"
     },
     {
@@ -868,9 +868,9 @@
       "name": "龙源电力",
       "chain": "wind",
       "sector": "运营",
-      "price": 6.66,
-      "change_pct": 6.39,
-      "pe": 8.44,
+      "price": 6.87,
+      "change_pct": 3.15,
+      "pe": 8.7,
       "currency": "HKD"
     },
     {
@@ -878,9 +878,9 @@
       "name": "中广核新能源",
       "chain": "wind",
       "sector": "运营",
-      "price": 2.63,
-      "change_pct": -0.38,
-      "pe": 5.6,
+      "price": 2.66,
+      "change_pct": 1.14,
+      "pe": 5.66,
       "currency": "HKD"
     },
     {
@@ -888,9 +888,9 @@
       "name": "亿华通",
       "chain": "hydrogen",
       "sector": "燃料电池",
-      "price": 19.21,
-      "change_pct": 0.0,
-      "pe": null,
+      "price": 17.25,
+      "change_pct": -10.2,
+      "pe": 100.22,
       "currency": "HKD"
     },
     {
@@ -918,8 +918,8 @@
       "name": "重塑能源",
       "chain": "hydrogen",
       "sector": "燃料电池",
-      "price": 40.06,
-      "change_pct": -1.43,
+      "price": 41.1,
+      "change_pct": 2.6,
       "pe": null,
       "currency": "HKD"
     },
@@ -928,8 +928,8 @@
       "name": "国鸿氢能",
       "chain": "hydrogen",
       "sector": "燃料电池",
-      "price": 3.91,
-      "change_pct": -2.01,
+      "price": 3.88,
+      "change_pct": -0.77,
       "pe": null,
       "currency": "HKD"
     },
@@ -938,9 +938,9 @@
       "name": "东岳集团",
       "chain": "hydrogen",
       "sector": "质子膜",
-      "price": 12.82,
-      "change_pct": -1.69,
-      "pe": 6.81,
+      "price": 13.2,
+      "change_pct": 2.96,
+      "pe": 6.97,
       "currency": "HKD"
     }
   ]
