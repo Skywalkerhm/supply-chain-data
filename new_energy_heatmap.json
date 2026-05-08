@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-07 11:32 HKT",
+  "updated": "2026-05-08 11:28 HKT",
   "total_tracked": 95,
   "total_fetched": 94,
   "stocks": [
@@ -8,9 +8,9 @@
       "name": "赣锋锂业",
       "chain": "lithium",
       "sector": "锂资源",
-      "price": 88.1,
-      "change_pct": -3.66,
-      "pe": 35.48,
+      "price": 85.75,
+      "change_pct": -2.56,
+      "pe": 34.53,
       "currency": "CNY"
     },
     {
@@ -18,9 +18,9 @@
       "name": "天齐锂业",
       "chain": "lithium",
       "sector": "锂资源",
-      "price": 78.36,
-      "change_pct": -4.1,
-      "pe": 24.69,
+      "price": 76.76,
+      "change_pct": -2.91,
+      "pe": 24.19,
       "currency": "CNY"
     },
     {
@@ -28,9 +28,9 @@
       "name": "盐湖股份",
       "chain": "lithium",
       "sector": "锂资源",
-      "price": 38.39,
-      "change_pct": -4.98,
-      "pe": 19.1,
+      "price": 38.46,
+      "change_pct": -1.18,
+      "pe": 19.13,
       "currency": "CNY"
     },
     {
@@ -38,9 +38,9 @@
       "name": "华友钴业",
       "chain": "lithium",
       "sector": "钴镍",
-      "price": 67.84,
-      "change_pct": -0.19,
-      "pe": 10.9,
+      "price": 65.88,
+      "change_pct": -3.4,
+      "pe": 10.58,
       "currency": "CNY"
     },
     {
@@ -48,9 +48,9 @@
       "name": "洛阳钼业",
       "chain": "lithium",
       "sector": "钴镍",
-      "price": 19.71,
-      "change_pct": 1.18,
-      "pe": 12.57,
+      "price": 19.52,
+      "change_pct": -1.71,
+      "pe": 12.45,
       "currency": "CNY"
     },
     {
@@ -58,9 +58,9 @@
       "name": "格林美",
       "chain": "lithium",
       "sector": "钴镍",
-      "price": 9.07,
-      "change_pct": -2.99,
-      "pe": 19.14,
+      "price": 9.09,
+      "change_pct": -0.44,
+      "pe": 19.18,
       "currency": "CNY"
     },
     {
@@ -68,9 +68,9 @@
       "name": "云天化",
       "chain": "lithium",
       "sector": "磷锰",
-      "price": 35.13,
-      "change_pct": -2.9,
-      "pe": 11.99,
+      "price": 34.72,
+      "change_pct": -1.08,
+      "pe": 11.85,
       "currency": "CNY"
     },
     {
@@ -78,9 +78,9 @@
       "name": "容百科技",
       "chain": "lithium",
       "sector": "正极",
-      "price": 38.27,
-      "change_pct": 0.26,
-      "pe": 37.29,
+      "price": 39.25,
+      "change_pct": 2.24,
+      "pe": 38.21,
       "currency": "CNY"
     },
     {
@@ -88,9 +88,9 @@
       "name": "当升科技",
       "chain": "lithium",
       "sector": "正极",
-      "price": 63.39,
-      "change_pct": -2.7,
-      "pe": 25.46,
+      "price": 63.0,
+      "change_pct": -0.91,
+      "pe": 25.3,
       "currency": "CNY"
     },
     {
@@ -98,9 +98,9 @@
       "name": "湖南裕能",
       "chain": "lithium",
       "sector": "正极",
-      "price": 104.75,
-      "change_pct": -4.69,
-      "pe": 25.22,
+      "price": 99.99,
+      "change_pct": -5.69,
+      "pe": 24.07,
       "currency": "CNY"
     },
     {
@@ -108,9 +108,9 @@
       "name": "德方纳米",
       "chain": "lithium",
       "sector": "正极",
-      "price": 79.69,
-      "change_pct": -0.57,
-      "pe": 33.61,
+      "price": 80.6,
+      "change_pct": -0.19,
+      "pe": 34.01,
       "currency": "CNY"
     },
     {
@@ -118,9 +118,9 @@
       "name": "璞泰来",
       "chain": "lithium",
       "sector": "负极",
-      "price": 35.84,
-      "change_pct": -3.58,
-      "pe": 24.22,
+      "price": 34.2,
+      "change_pct": -4.39,
+      "pe": 23.11,
       "currency": "CNY"
     },
     {
@@ -128,9 +128,9 @@
       "name": "杉杉股份",
       "chain": "lithium",
       "sector": "负极",
-      "price": 17.18,
-      "change_pct": -2.88,
-      "pe": 18.88,
+      "price": 16.9,
+      "change_pct": -0.53,
+      "pe": 18.57,
       "currency": "CNY"
     },
     {
@@ -138,9 +138,9 @@
       "name": "天赐材料",
       "chain": "lithium",
       "sector": "电解液",
-      "price": 62.27,
-      "change_pct": -2.7,
-      "pe": 15.83,
+      "price": 60.24,
+      "change_pct": -4.08,
+      "pe": 15.32,
       "currency": "CNY"
     },
     {
@@ -148,9 +148,9 @@
       "name": "新宙邦",
       "chain": "lithium",
       "sector": "电解液",
-      "price": 67.77,
-      "change_pct": -4.71,
-      "pe": 22.8,
+      "price": 67.4,
+      "change_pct": -3.02,
+      "pe": 22.68,
       "currency": "CNY"
     },
     {
@@ -158,9 +158,9 @@
       "name": "多氟多",
       "chain": "lithium",
       "sector": "电解液",
-      "price": 37.44,
-      "change_pct": -1.78,
-      "pe": 288.0,
+      "price": 35.97,
+      "change_pct": -4.18,
+      "pe": 276.85,
       "currency": "CNY"
     },
     {
@@ -168,9 +168,9 @@
       "name": "恩捷股份",
       "chain": "lithium",
       "sector": "隔膜",
-      "price": 85.13,
-      "change_pct": -2.76,
-      "pe": 30.07,
+      "price": 81.51,
+      "change_pct": -4.45,
+      "pe": 28.79,
       "currency": "CNY"
     },
     {
@@ -178,9 +178,9 @@
       "name": "星源材质",
       "chain": "lithium",
       "sector": "隔膜",
-      "price": 17.15,
-      "change_pct": -1.55,
-      "pe": 26.47,
+      "price": 17.55,
+      "change_pct": 2.03,
+      "pe": 27.09,
       "currency": "CNY"
     },
     {
@@ -188,9 +188,9 @@
       "name": "嘉元科技",
       "chain": "lithium",
       "sector": "辅材",
-      "price": 52.31,
-      "change_pct": 0.08,
-      "pe": 326.88,
+      "price": 50.27,
+      "change_pct": -3.44,
+      "pe": 314.19,
       "currency": "CNY"
     },
     {
@@ -198,9 +198,9 @@
       "name": "科达利",
       "chain": "lithium",
       "sector": "辅材",
-      "price": 199.64,
-      "change_pct": 3.64,
-      "pe": 19.16,
+      "price": 205.27,
+      "change_pct": 1.11,
+      "pe": 19.7,
       "currency": "CNY"
     },
     {
@@ -208,9 +208,9 @@
       "name": "先导智能",
       "chain": "lithium",
       "sector": "辅材",
-      "price": 56.1,
-      "change_pct": -1.6,
-      "pe": 31.32,
+      "price": 55.3,
+      "change_pct": -1.79,
+      "pe": 30.87,
       "currency": "CNY"
     },
     {
@@ -218,9 +218,9 @@
       "name": "宁德时代",
       "chain": "lithium",
       "sector": "动力电池",
-      "price": 452.21,
-      "change_pct": -1.69,
-      "pe": 19.49,
+      "price": 442.43,
+      "change_pct": -2.04,
+      "pe": 19.07,
       "currency": "CNY"
     },
     {
@@ -228,9 +228,9 @@
       "name": "比亚迪",
       "chain": "lithium",
       "sector": "动力电池",
-      "price": 100.96,
-      "change_pct": 0.21,
-      "pe": 17.84,
+      "price": 99.94,
+      "change_pct": -0.52,
+      "pe": 17.66,
       "currency": "CNY"
     },
     {
@@ -238,9 +238,9 @@
       "name": "中创新航",
       "chain": "lithium",
       "sector": "动力电池",
-      "price": 34.64,
-      "change_pct": -1.53,
-      "pe": 14.88,
+      "price": 34.22,
+      "change_pct": -1.1,
+      "pe": 14.65,
       "currency": "HKD"
     },
     {
@@ -248,9 +248,9 @@
       "name": "亿纬锂能",
       "chain": "lithium",
       "sector": "动力电池",
-      "price": 72.79,
-      "change_pct": -3.64,
-      "pe": 16.46,
+      "price": 71.31,
+      "change_pct": -0.7,
+      "pe": 16.12,
       "currency": "CNY"
     },
     {
@@ -258,9 +258,9 @@
       "name": "国轩高科",
       "chain": "lithium",
       "sector": "动力电池",
-      "price": 38.12,
-      "change_pct": -1.14,
-      "pe": 25.67,
+      "price": 37.58,
+      "change_pct": -1.49,
+      "pe": 25.31,
       "currency": "CNY"
     },
     {
@@ -268,9 +268,9 @@
       "name": "欣旺达",
       "chain": "lithium",
       "sector": "消费电池",
-      "price": 27.22,
-      "change_pct": -2.61,
-      "pe": 12.54,
+      "price": 26.86,
+      "change_pct": -1.21,
+      "pe": 12.38,
       "currency": "CNY"
     },
     {
@@ -278,9 +278,9 @@
       "name": "珠海冠宇",
       "chain": "lithium",
       "sector": "消费电池",
-      "price": 16.57,
-      "change_pct": -2.18,
-      "pe": 14.66,
+      "price": 16.63,
+      "change_pct": -0.42,
+      "pe": 14.72,
       "currency": "CNY"
     },
     {
@@ -288,9 +288,9 @@
       "name": "德赛电池",
       "chain": "lithium",
       "sector": "消费电池",
-      "price": 29.02,
-      "change_pct": -1.26,
-      "pe": 16.49,
+      "price": 28.67,
+      "change_pct": -0.69,
+      "pe": 16.29,
       "currency": "CNY"
     },
     {
@@ -298,9 +298,9 @@
       "name": "通威股份",
       "chain": "solar",
       "sector": "硅料",
-      "price": 17.68,
-      "change_pct": 1.84,
-      "pe": 20.64,
+      "price": 17.13,
+      "change_pct": -2.06,
+      "pe": 17.62,
       "currency": "CNY"
     },
     {
@@ -308,9 +308,9 @@
       "name": "大全能源",
       "chain": "solar",
       "sector": "硅料",
-      "price": 23.28,
-      "change_pct": 4.58,
-      "pe": 27.23,
+      "price": 22.58,
+      "change_pct": -1.7,
+      "pe": 26.41,
       "currency": "CNY"
     },
     {
@@ -318,9 +318,9 @@
       "name": "协鑫科技",
       "chain": "solar",
       "sector": "硅料",
-      "price": 0.93,
-      "change_pct": 6.9,
-      "pe": 12.88,
+      "price": 0.89,
+      "change_pct": -3.26,
+      "pe": 12.29,
       "currency": "HKD"
     },
     {
@@ -328,9 +328,9 @@
       "name": "隆基绿能",
       "chain": "solar",
       "sector": "硅片/组件",
-      "price": 16.66,
-      "change_pct": 0.66,
-      "pe": 26.32,
+      "price": 16.28,
+      "change_pct": -1.63,
+      "pe": 28.53,
       "currency": "CNY"
     },
     {
@@ -338,8 +338,8 @@
       "name": "TCL中环",
       "chain": "solar",
       "sector": "硅片",
-      "price": 8.92,
-      "change_pct": 0.22,
+      "price": 8.79,
+      "change_pct": -0.79,
       "pe": null,
       "currency": "CNY"
     },
@@ -348,9 +348,9 @@
       "name": "爱旭股份",
       "chain": "solar",
       "sector": "电池片",
-      "price": 15.02,
-      "change_pct": 0.33,
-      "pe": 25.46,
+      "price": 14.62,
+      "change_pct": -1.55,
+      "pe": 24.78,
       "currency": "CNY"
     },
     {
@@ -358,9 +358,9 @@
       "name": "钧达股份",
       "chain": "solar",
       "sector": "电池片",
-      "price": 90.06,
-      "change_pct": 10.0,
-      "pe": 27.61,
+      "price": 92.47,
+      "change_pct": 5.38,
+      "pe": 28.35,
       "currency": "CNY"
     },
     {
@@ -368,9 +368,9 @@
       "name": "晶澳科技",
       "chain": "solar",
       "sector": "组件",
-      "price": 10.93,
-      "change_pct": 0.18,
-      "pe": 60.72,
+      "price": 10.68,
+      "change_pct": -1.66,
+      "pe": 59.33,
       "currency": "CNY"
     },
     {
@@ -378,9 +378,9 @@
       "name": "晶科能源",
       "chain": "solar",
       "sector": "组件",
-      "price": 6.79,
-      "change_pct": 1.19,
-      "pe": 33.12,
+      "price": 6.86,
+      "change_pct": 1.48,
+      "pe": 33.46,
       "currency": "CNY"
     },
     {
@@ -388,9 +388,9 @@
       "name": "天合光能",
       "chain": "solar",
       "sector": "组件",
-      "price": 17.95,
-      "change_pct": 0.06,
-      "pe": 11.73,
+      "price": 17.64,
+      "change_pct": -1.34,
+      "pe": 147.0,
       "currency": "CNY"
     },
     {
@@ -398,9 +398,9 @@
       "name": "阿特斯",
       "chain": "solar",
       "sector": "组件",
-      "price": 14.54,
-      "change_pct": -0.27,
-      "pe": 14.03,
+      "price": 14.29,
+      "change_pct": -0.97,
+      "pe": 13.79,
       "currency": "CNY"
     },
     {
@@ -408,9 +408,9 @@
       "name": "三峡能源",
       "chain": "solar",
       "sector": "电站运营",
-      "price": 4.14,
-      "change_pct": 0.73,
-      "pe": 22.72,
+      "price": 4.17,
+      "change_pct": 0.97,
+      "pe": 22.89,
       "currency": "CNY"
     },
     {
@@ -418,9 +418,9 @@
       "name": "晶科科技",
       "chain": "solar",
       "sector": "电站运营",
-      "price": 7.36,
-      "change_pct": 2.94,
-      "pe": 46.0,
+      "price": 7.19,
+      "change_pct": -3.1,
+      "pe": 44.94,
       "currency": "CNY"
     },
     {
@@ -428,9 +428,9 @@
       "name": "信义光能",
       "chain": "solar",
       "sector": "玻璃",
-      "price": 3.2,
-      "change_pct": 6.31,
-      "pe": 12.18,
+      "price": 3.05,
+      "change_pct": -3.48,
+      "pe": 11.61,
       "currency": "HKD"
     },
     {
@@ -438,9 +438,9 @@
       "name": "福莱特",
       "chain": "solar",
       "sector": "玻璃",
-      "price": 9.59,
-      "change_pct": 9.23,
-      "pe": 8.11,
+      "price": 9.02,
+      "change_pct": -4.35,
+      "pe": 7.61,
       "currency": "HKD"
     },
     {
@@ -448,9 +448,9 @@
       "name": "福斯特",
       "chain": "solar",
       "sector": "胶膜",
-      "price": 19.14,
-      "change_pct": 0.47,
-      "pe": 18.76,
+      "price": 18.45,
+      "change_pct": -2.54,
+      "pe": 18.09,
       "currency": "CNY"
     },
     {
@@ -458,9 +458,9 @@
       "name": "海优新材",
       "chain": "solar",
       "sector": "胶膜",
-      "price": 51.2,
-      "change_pct": 2.42,
-      "pe": 1280.0,
+      "price": 50.34,
+      "change_pct": -0.91,
+      "pe": 1258.5,
       "currency": "CNY"
     },
     {
@@ -468,9 +468,9 @@
       "name": "帝科股份",
       "chain": "solar",
       "sector": "银浆",
-      "price": 96.24,
-      "change_pct": 1.2,
-      "pe": 25.19,
+      "price": 94.23,
+      "change_pct": -1.92,
+      "pe": 24.67,
       "currency": "CNY"
     },
     {
@@ -478,9 +478,9 @@
       "name": "聚和材料",
       "chain": "solar",
       "sector": "银浆",
-      "price": 112.2,
-      "change_pct": 1.54,
-      "pe": 41.25,
+      "price": 109.69,
+      "change_pct": -2.97,
+      "pe": 40.33,
       "currency": "CNY"
     },
     {
@@ -488,9 +488,9 @@
       "name": "晶盛机电",
       "chain": "solar",
       "sector": "设备",
-      "price": 46.08,
-      "change_pct": 3.3,
-      "pe": 41.51,
+      "price": 45.37,
+      "change_pct": -1.6,
+      "pe": 40.87,
       "currency": "CNY"
     },
     {
@@ -498,9 +498,9 @@
       "name": "迈为股份",
       "chain": "solar",
       "sector": "设备",
-      "price": 267.36,
-      "change_pct": 8.24,
-      "pe": 41.11,
+      "price": 265.78,
+      "change_pct": 0.57,
+      "pe": 40.86,
       "currency": "CNY"
     },
     {
@@ -508,9 +508,9 @@
       "name": "捷佳伟创",
       "chain": "solar",
       "sector": "设备",
-      "price": 94.43,
-      "change_pct": 2.22,
-      "pe": 16.23,
+      "price": 93.14,
+      "change_pct": -0.42,
+      "pe": 16.0,
       "currency": "CNY"
     },
     {
@@ -518,9 +518,9 @@
       "name": "阳光电源",
       "chain": "solar",
       "sector": "逆变器",
-      "price": 139.88,
-      "change_pct": -0.46,
-      "pe": 16.64,
+      "price": 141.25,
+      "change_pct": 1.25,
+      "pe": 16.8,
       "currency": "CNY"
     },
     {
@@ -528,9 +528,9 @@
       "name": "锦浪科技",
       "chain": "solar",
       "sector": "逆变器",
-      "price": 98.5,
-      "change_pct": 0.59,
-      "pe": 38.93,
+      "price": 98.33,
+      "change_pct": 0.85,
+      "pe": 38.87,
       "currency": "CNY"
     },
     {
@@ -538,9 +538,9 @@
       "name": "固德威",
       "chain": "solar",
       "sector": "逆变器",
-      "price": 110.55,
-      "change_pct": 0.62,
-      "pe": 69.53,
+      "price": 108.56,
+      "change_pct": -1.7,
+      "pe": 68.28,
       "currency": "CNY"
     },
     {
@@ -548,9 +548,9 @@
       "name": "德业股份",
       "chain": "solar",
       "sector": "逆变器",
-      "price": 155.2,
-      "change_pct": -2.54,
-      "pe": 24.21,
+      "price": 150.95,
+      "change_pct": -2.2,
+      "pe": 23.55,
       "currency": "CNY"
     },
     {
@@ -558,9 +558,9 @@
       "name": "中信博",
       "chain": "solar",
       "sector": "跟踪支架",
-      "price": 40.41,
-      "change_pct": 0.52,
-      "pe": 9.48,
+      "price": 39.21,
+      "change_pct": -2.37,
+      "pe": 9.19,
       "currency": "CNY"
     },
     {
@@ -568,9 +568,9 @@
       "name": "特变电工",
       "chain": "grid",
       "sector": "变压器",
-      "price": 27.66,
-      "change_pct": -0.43,
-      "pe": 18.44,
+      "price": 27.09,
+      "change_pct": -2.55,
+      "pe": 18.06,
       "currency": "CNY"
     },
     {
@@ -578,9 +578,9 @@
       "name": "中国西电",
       "chain": "grid",
       "sector": "变压器",
-      "price": 17.39,
-      "change_pct": -0.23,
-      "pe": 47.0,
+      "price": 17.24,
+      "change_pct": -1.49,
+      "pe": 46.59,
       "currency": "CNY"
     },
     {
@@ -588,9 +588,9 @@
       "name": "平高电气",
       "chain": "grid",
       "sector": "GIS开关",
-      "price": 22.27,
-      "change_pct": -0.04,
-      "pe": 19.71,
+      "price": 21.41,
+      "change_pct": -3.6,
+      "pe": 18.95,
       "currency": "CNY"
     },
     {
@@ -598,9 +598,9 @@
       "name": "许继电气",
       "chain": "grid",
       "sector": "GIS开关",
-      "price": 26.27,
-      "change_pct": 1.51,
-      "pe": 15.37,
+      "price": 26.22,
+      "change_pct": -0.23,
+      "pe": 15.34,
       "currency": "CNY"
     },
     {
@@ -608,9 +608,9 @@
       "name": "思源电气",
       "chain": "grid",
       "sector": "GIS开关",
-      "price": 203.5,
-      "change_pct": -1.21,
-      "pe": 31.53,
+      "price": 197.09,
+      "change_pct": -4.64,
+      "pe": 30.54,
       "currency": "CNY"
     },
     {
@@ -618,9 +618,9 @@
       "name": "东方电缆",
       "chain": "grid",
       "sector": "海缆",
-      "price": 62.81,
-      "change_pct": 0.66,
-      "pe": 18.49,
+      "price": 61.16,
+      "change_pct": -2.91,
+      "pe": 18.0,
       "currency": "CNY"
     },
     {
@@ -628,9 +628,9 @@
       "name": "中天科技",
       "chain": "grid",
       "sector": "海缆",
-      "price": 36.16,
-      "change_pct": 3.64,
-      "pe": 18.16,
+      "price": 39.97,
+      "change_pct": 4.14,
+      "pe": 16.28,
       "currency": "CNY"
     },
     {
@@ -638,9 +638,9 @@
       "name": "亨通光电",
       "chain": "grid",
       "sector": "海缆",
-      "price": 74.18,
-      "change_pct": 3.31,
-      "pe": 46.65,
+      "price": 76.95,
+      "change_pct": 1.3,
+      "pe": 48.4,
       "currency": "CNY"
     },
     {
@@ -648,9 +648,9 @@
       "name": "国电南瑞",
       "chain": "grid",
       "sector": "二次设备",
-      "price": 26.23,
-      "change_pct": 0.04,
-      "pe": 19.87,
+      "price": 25.94,
+      "change_pct": -1.89,
+      "pe": 19.75,
       "currency": "CNY"
     },
     {
@@ -658,9 +658,9 @@
       "name": "四方股份",
       "chain": "grid",
       "sector": "二次设备",
-      "price": 60.12,
-      "change_pct": 0.45,
-      "pe": 44.04,
+      "price": 61.58,
+      "change_pct": 1.62,
+      "pe": 45.11,
       "currency": "CNY"
     },
     {
@@ -668,9 +668,9 @@
       "name": "荣信汇科",
       "chain": "grid",
       "sector": "柔直",
-      "price": 51.64,
-      "change_pct": 0.33,
-      "pe": 57.38,
+      "price": 52.53,
+      "change_pct": 1.9,
+      "pe": 58.39,
       "currency": "CNY"
     },
     {
@@ -678,9 +678,9 @@
       "name": "盛弘股份",
       "chain": "grid",
       "sector": "储能PCS",
-      "price": 51.07,
-      "change_pct": 2.59,
-      "pe": 25.54,
+      "price": 52.05,
+      "change_pct": 0.74,
+      "pe": 26.01,
       "currency": "CNY"
     },
     {
@@ -688,9 +688,9 @@
       "name": "科士达",
       "chain": "grid",
       "sector": "储能PCS",
-      "price": 47.95,
-      "change_pct": 1.65,
-      "pe": 31.0,
+      "price": 47.63,
+      "change_pct": -2.7,
+      "pe": 30.79,
       "currency": "CNY"
     },
     {
@@ -698,9 +698,9 @@
       "name": "长江电力",
       "chain": "grid",
       "sector": "水电",
-      "price": 27.09,
-      "change_pct": -0.4,
-      "pe": 17.63,
+      "price": 26.99,
+      "change_pct": -0.22,
+      "pe": 17.57,
       "currency": "CNY"
     },
     {
@@ -708,9 +708,9 @@
       "name": "国投电力",
       "chain": "grid",
       "sector": "水电",
-      "price": 13.66,
-      "change_pct": 0.0,
-      "pe": 12.2,
+      "price": 13.51,
+      "change_pct": -0.73,
+      "pe": 12.06,
       "currency": "CNY"
     },
     {
@@ -718,9 +718,9 @@
       "name": "金风科技",
       "chain": "wind",
       "sector": "整机",
-      "price": 28.51,
-      "change_pct": 2.04,
-      "pe": 24.01,
+      "price": 28.21,
+      "change_pct": -0.88,
+      "pe": 23.75,
       "currency": "CNY"
     },
     {
@@ -728,9 +728,9 @@
       "name": "明阳智能",
       "chain": "wind",
       "sector": "整机",
-      "price": 15.98,
-      "change_pct": 0.88,
-      "pe": 16.65,
+      "price": 16.15,
+      "change_pct": 1.32,
+      "pe": 16.82,
       "currency": "CNY"
     },
     {
@@ -738,9 +738,9 @@
       "name": "运达股份",
       "chain": "wind",
       "sector": "整机",
-      "price": 16.93,
-      "change_pct": 0.65,
-      "pe": 20.65,
+      "price": 16.92,
+      "change_pct": 0.24,
+      "pe": 20.63,
       "currency": "CNY"
     },
     {
@@ -748,9 +748,9 @@
       "name": "三一重能",
       "chain": "wind",
       "sector": "整机",
-      "price": 25.31,
-      "change_pct": 0.88,
-      "pe": 11.09,
+      "price": 24.82,
+      "change_pct": -1.39,
+      "pe": 10.87,
       "currency": "CNY"
     },
     {
@@ -758,9 +758,9 @@
       "name": "中材科技",
       "chain": "wind",
       "sector": "叶片",
-      "price": 61.2,
-      "change_pct": 0.84,
-      "pe": 32.39,
+      "price": 62.73,
+      "change_pct": -0.71,
+      "pe": 33.2,
       "currency": "CNY"
     },
     {
@@ -768,9 +768,9 @@
       "name": "时代新材",
       "chain": "wind",
       "sector": "叶片",
-      "price": 12.4,
-      "change_pct": 1.31,
-      "pe": 12.91,
+      "price": 12.42,
+      "change_pct": 0.98,
+      "pe": 12.94,
       "currency": "CNY"
     },
     {
@@ -778,9 +778,9 @@
       "name": "天顺风能",
       "chain": "wind",
       "sector": "塔筒/桩基",
-      "price": 11.72,
-      "change_pct": 0.51,
-      "pe": 19.86,
+      "price": 11.57,
+      "change_pct": -1.03,
+      "pe": 19.61,
       "currency": "CNY"
     },
     {
@@ -788,9 +788,9 @@
       "name": "大金重工",
       "chain": "wind",
       "sector": "塔筒/桩基",
-      "price": 85.47,
-      "change_pct": -0.79,
-      "pe": 25.9,
+      "price": 83.76,
+      "change_pct": -1.3,
+      "pe": 25.38,
       "currency": "CNY"
     },
     {
@@ -798,9 +798,9 @@
       "name": "泰胜风能",
       "chain": "wind",
       "sector": "塔筒/桩基",
-      "price": 11.57,
-      "change_pct": 1.76,
-      "pe": 15.22,
+      "price": 12.45,
+      "change_pct": 7.14,
+      "pe": 16.38,
       "currency": "CNY"
     },
     {
@@ -808,9 +808,9 @@
       "name": "日月股份",
       "chain": "wind",
       "sector": "铸件",
-      "price": 12.67,
-      "change_pct": 0.24,
-      "pe": 16.89,
+      "price": 12.49,
+      "change_pct": -0.95,
+      "pe": 16.65,
       "currency": "CNY"
     },
     {
@@ -818,9 +818,9 @@
       "name": "金雷股份",
       "chain": "wind",
       "sector": "铸件",
-      "price": 31.33,
-      "change_pct": 2.15,
-      "pe": 15.82,
+      "price": 31.01,
+      "change_pct": -0.26,
+      "pe": 15.66,
       "currency": "CNY"
     },
     {
@@ -828,9 +828,9 @@
       "name": "新强联",
       "chain": "wind",
       "sector": "轴承/齿轮箱",
-      "price": 42.81,
-      "change_pct": 0.42,
-      "pe": 12.86,
+      "price": 42.1,
+      "change_pct": -1.03,
+      "pe": 12.64,
       "currency": "CNY"
     },
     {
@@ -838,9 +838,9 @@
       "name": "恒润股份",
       "chain": "wind",
       "sector": "轴承/齿轮箱",
-      "price": 29.21,
-      "change_pct": 1.67,
-      "pe": 16.32,
+      "price": 28.54,
+      "change_pct": -1.92,
+      "pe": 15.94,
       "currency": "CNY"
     },
     {
@@ -858,9 +858,9 @@
       "name": "金力永磁",
       "chain": "wind",
       "sector": "稀土永磁",
-      "price": 34.65,
+      "price": 34.59,
       "change_pct": -0.43,
-      "pe": 43.94,
+      "pe": 43.87,
       "currency": "CNY"
     },
     {
@@ -868,9 +868,9 @@
       "name": "龙源电力",
       "chain": "wind",
       "sector": "运营",
-      "price": 6.92,
-      "change_pct": 0.44,
-      "pe": 8.76,
+      "price": 6.73,
+      "change_pct": -2.32,
+      "pe": 8.5,
       "currency": "HKD"
     },
     {
@@ -878,9 +878,9 @@
       "name": "中广核新能源",
       "chain": "wind",
       "sector": "运营",
-      "price": 2.71,
-      "change_pct": 1.5,
-      "pe": 5.77,
+      "price": 2.72,
+      "change_pct": -0.73,
+      "pe": 5.79,
       "currency": "HKD"
     },
     {
@@ -888,9 +888,9 @@
       "name": "亿华通",
       "chain": "hydrogen",
       "sector": "燃料电池",
-      "price": 18.26,
-      "change_pct": 0.44,
-      "pe": 106.11,
+      "price": 18.22,
+      "change_pct": 0.28,
+      "pe": 105.88,
       "currency": "HKD"
     },
     {
@@ -898,9 +898,9 @@
       "name": "华电重工",
       "chain": "hydrogen",
       "sector": "电解槽",
-      "price": 9.15,
-      "change_pct": 2.01,
-      "pe": 30.5,
+      "price": 9.08,
+      "change_pct": -0.44,
+      "pe": 30.27,
       "currency": "CNY"
     },
     {
@@ -908,8 +908,8 @@
       "name": "京城股份",
       "chain": "hydrogen",
       "sector": "储氢",
-      "price": 10.75,
-      "change_pct": -0.65,
+      "price": 10.96,
+      "change_pct": 1.67,
       "pe": null,
       "currency": "CNY"
     },
@@ -918,8 +918,8 @@
       "name": "重塑能源",
       "chain": "hydrogen",
       "sector": "燃料电池",
-      "price": 39.28,
-      "change_pct": -0.05,
+      "price": 40.12,
+      "change_pct": 1.06,
       "pe": null,
       "currency": "HKD"
     },
@@ -928,8 +928,8 @@
       "name": "国鸿氢能",
       "chain": "hydrogen",
       "sector": "燃料电池",
-      "price": 3.97,
-      "change_pct": -0.25,
+      "price": 3.94,
+      "change_pct": 0.0,
       "pe": null,
       "currency": "HKD"
     },
@@ -938,9 +938,9 @@
       "name": "东岳集团",
       "chain": "hydrogen",
       "sector": "质子膜",
-      "price": 12.78,
-      "change_pct": -0.39,
-      "pe": 6.75,
+      "price": 12.52,
+      "change_pct": -2.8,
+      "pe": 6.61,
       "currency": "HKD"
     }
   ]
