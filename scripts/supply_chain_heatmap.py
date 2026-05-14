@@ -5,8 +5,10 @@ Outputs JSON to be served via GitHub Pages.
 """
 
 import json
+import os
 import sys
 import time
+from multiprocessing import Process, Queue
 import yfinance as yf
 from datetime import datetime, timezone, timedelta, date
 
@@ -146,42 +148,62 @@ def period_return(closes, start_day):
     return pct_change(float(closes.iloc[-1]), base)
 
 
+def _download_ticker_worker(ticker, queue):
+    try:
+        data = yf.download(
+            ticker,
+            period="1y",
+            auto_adjust=True,
+            threads=False,
+            progress=False,
+            timeout=8,
+        )
+        if hasattr(data.columns, "nlevels") and data.columns.nlevels > 1:
+            if ticker in data.columns.get_level_values(0):
+                data = data[ticker]
+            elif ticker in data.columns.get_level_values(1):
+                data = data.xs(ticker, axis=1, level=1)
+        queue.put(data)
+    except Exception as exc:
+        queue.put(exc)
+
+
+def download_ticker(ticker, timeout_seconds=12):
+    queue = Queue()
+    process = Process(target=_download_ticker_worker, args=(ticker, queue))
+    process.start()
+    process.join(timeout_seconds)
+
+    if process.is_alive():
+        process.terminate()
+        process.join()
+        print(f"  download timed out: {ticker}")
+        return None
+
+    if queue.empty():
+        return None
+
+    data = queue.get()
+    if isinstance(data, Exception):
+        print(f"  download failed: {ticker}: {data}")
+        return None
+    return data
+
+
 def fetch_data():
     """Fetch latest quote data and MTD/YTD returns for all stocks."""
-    tickers_str = " ".join([s["ticker"] for s in STOCKS])
     print(f"Fetching {len(STOCKS)} tickers...")
 
     # One year of adjusted closes is still lightweight, and gives us the
     # trading-day base immediately before month/year start for MTD/YTD.
-    # Download in small sequential batches to reduce Yahoo throttling risk.
+    # Each ticker is downloaded in a child process so a Yahoo timeout cannot
+    # hang the entire GitHub Actions job.
     data_by_ticker = {}
-    batch_size = 12
-    for i in range(0, len(STOCKS), batch_size):
-        batch = STOCKS[i:i + batch_size]
-        batch_tickers = [s["ticker"] for s in batch]
-        print(f"Downloading batch {i // batch_size + 1}: {' '.join(batch_tickers)}")
-        try:
-            batch_data = yf.download(
-                " ".join(batch_tickers),
-                period="1y",
-                group_by="ticker",
-                auto_adjust=True,
-                threads=False,
-                progress=False,
-                timeout=30,
-            )
-        except Exception as e:
-            print(f"  batch download failed: {e}")
-            batch_data = None
-
-        for tk in batch_tickers:
-            if batch_data is None or batch_data.empty:
-                data_by_ticker[tk] = None
-            elif len(batch_tickers) == 1:
-                data_by_ticker[tk] = batch_data
-            else:
-                data_by_ticker[tk] = batch_data[tk] if tk in batch_data.columns.get_level_values(0) else None
-        time.sleep(1.5)
+    for index, stock in enumerate(STOCKS, start=1):
+        tk = stock["ticker"]
+        print(f"Downloading {index}/{len(STOCKS)}: {tk}")
+        data_by_ticker[tk] = download_ticker(tk)
+        time.sleep(0.2)
 
     results = []
     for stock in STOCKS:
@@ -246,7 +268,12 @@ def fetch_data():
                 "currency": None,
             })
 
-    # Second pass: fetch PE and market cap via Ticker.info (slower but more data)
+    if os.getenv("FETCH_HEATMAP_METADATA") != "1":
+        print("\nSkipping PE / market cap metadata. Set FETCH_HEATMAP_METADATA=1 to enable it.")
+        return results
+
+    # Second pass: fetch PE and market cap. This is optional because Yahoo's metadata
+    # endpoints are much slower and less reliable than the price history endpoint.
     print("\nFetching PE / market cap...")
     for item in results:
         if item["price"] is None:
@@ -270,6 +297,12 @@ def fetch_data():
 
 def main():
     stocks = fetch_data()
+    ok = sum(1 for s in stocks if s["price"] is not None)
+    min_success = int(os.getenv("MIN_HEATMAP_SUCCESS", "40"))
+    if ok < min_success:
+        print(f"\nOnly {ok} stocks fetched successfully; refusing to overwrite heatmap JSON.")
+        print(f"Set MIN_HEATMAP_SUCCESS to adjust the threshold. Current threshold: {min_success}")
+        sys.exit(1)
 
     # Timestamp in HKT (UTC+8)
     hkt = timezone(timedelta(hours=8))
@@ -288,7 +321,6 @@ def main():
     print(f"   Updated: {output['updated']}")
 
     # Summary
-    ok = sum(1 for s in stocks if s["price"] is not None)
     fail = len(stocks) - ok
     print(f"   Success: {ok}, Failed: {fail}")
 
