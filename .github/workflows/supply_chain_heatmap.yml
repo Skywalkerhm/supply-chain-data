@@ -1,0 +1,41 @@
+﻿name: Supply Chain Heatmap
+
+on:
+  # Run on weekdays at 16:15 HKT (08:15 UTC), after Asian markets close.
+  schedule:
+    - cron: '15 8 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install yfinance
+
+      - name: Generate heatmap JSON
+        run: python scripts/supply_chain_heatmap.py
+
+      - name: Show output preview
+        run: head -50 supply_chain_heatmap.json
+
+      - name: Commit updated heatmap JSON
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add supply_chain_heatmap.json
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "Update heatmap data $(date -u +%Y-%m-%d)"
+          git push
