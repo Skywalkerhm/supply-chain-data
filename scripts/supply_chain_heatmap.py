@@ -193,8 +193,13 @@ def download_ticker(ticker, timeout_seconds=12):
 def _metadata_worker(ticker, queue):
     try:
         info = yf.Ticker(ticker).info
+        forward_pe = info.get("forwardPE")
+        trailing_pe = info.get("trailingPE")
+        pe = forward_pe or trailing_pe
+        pe_type = "forward" if forward_pe else ("trailing" if trailing_pe else None)
         queue.put({
-            "pe": info.get("forwardPE") or info.get("trailingPE"),
+            "pe": pe,
+            "pe_type": pe_type,
             "mkt_cap": info.get("marketCap"),
             "currency": info.get("currency", ""),
         })
@@ -254,6 +259,7 @@ def fetch_data():
                     "mtd_pct": None,
                     "ytd_pct": None,
                     "pe": None,
+                    "pe_type": None,
                     "mkt_cap_b": None,
                     "currency": None,
                 })
@@ -282,6 +288,7 @@ def fetch_data():
                 "mtd_pct": mtd_pct,
                 "ytd_pct": ytd_pct,
                 "pe": None,       # will fill below
+                "pe_type": None,  # forward or trailing
                 "mkt_cap_b": None,  # will fill below
                 "currency": None,
             })
@@ -298,6 +305,7 @@ def fetch_data():
                 "mtd_pct": None,
                 "ytd_pct": None,
                 "pe": None,
+                "pe_type": None,
                 "mkt_cap_b": None,
                 "currency": None,
             })
@@ -319,13 +327,15 @@ def fetch_data():
             continue
 
         pe = metadata.get("pe")
+        pe_type = metadata.get("pe_type")
         mkt_cap = metadata.get("mkt_cap")
         currency = metadata.get("currency", "")
 
         item["pe"] = round(pe, 1) if pe else None
+        item["pe_type"] = pe_type if pe else None
         item["mkt_cap_b"] = round(mkt_cap / 1e9, 1) if mkt_cap else None
         item["currency"] = currency
-        print(f"  OK {tk}: PE={item['pe']}, MktCap={item['mkt_cap_b']}B {currency}")
+        print(f"  OK {tk}: PE={item['pe']} ({item['pe_type']}), MktCap={item['mkt_cap_b']}B {currency}")
 
     return results
 
