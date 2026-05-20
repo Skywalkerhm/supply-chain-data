@@ -190,6 +190,40 @@ def download_ticker(ticker, timeout_seconds=12):
     return data
 
 
+def _metadata_worker(ticker, queue):
+    try:
+        info = yf.Ticker(ticker).info
+        queue.put({
+            "pe": info.get("forwardPE") or info.get("trailingPE"),
+            "mkt_cap": info.get("marketCap"),
+            "currency": info.get("currency", ""),
+        })
+    except Exception as exc:
+        queue.put(exc)
+
+
+def fetch_metadata(ticker, timeout_seconds=5):
+    queue = Queue()
+    process = Process(target=_metadata_worker, args=(ticker, queue))
+    process.start()
+    process.join(timeout_seconds)
+
+    if process.is_alive():
+        process.terminate()
+        process.join()
+        print(f"  metadata timed out: {ticker}")
+        return None
+
+    if queue.empty():
+        return None
+
+    metadata = queue.get()
+    if isinstance(metadata, Exception):
+        print(f"  metadata failed: {ticker}: {metadata}")
+        return None
+    return metadata
+
+
 def fetch_data():
     """Fetch latest quote data and MTD/YTD returns for all stocks."""
     print(f"Fetching {len(STOCKS)} tickers...")
@@ -268,29 +302,30 @@ def fetch_data():
                 "currency": None,
             })
 
-    if os.getenv("FETCH_HEATMAP_METADATA") != "1":
-        print("\nSkipping PE / market cap metadata. Set FETCH_HEATMAP_METADATA=1 to enable it.")
+    if os.getenv("FETCH_HEATMAP_METADATA", "1") == "0":
+        print("\nSkipping PE / market cap metadata because FETCH_HEATMAP_METADATA=0.")
         return results
 
-    # Second pass: fetch PE and market cap. This is optional because Yahoo's metadata
-    # endpoints are much slower and less reliable than the price history endpoint.
+    # Second pass: fetch PE and market cap. Each ticker has its own timeout so
+    # Yahoo metadata failures never block the heatmap JSON generation.
     print("\nFetching PE / market cap...")
     for item in results:
         if item["price"] is None:
             continue
         tk = item["ticker"]
-        try:
-            info = yf.Ticker(tk).info
-            pe = info.get("forwardPE") or info.get("trailingPE")
-            mkt_cap = info.get("marketCap")
-            currency = info.get("currency", "")
+        metadata = fetch_metadata(tk)
+        if not metadata:
+            print(f"  WARN {tk}: metadata unavailable")
+            continue
 
-            item["pe"] = round(pe, 1) if pe else None
-            item["mkt_cap_b"] = round(mkt_cap / 1e9, 1) if mkt_cap else None
-            item["currency"] = currency
-            print(f"  OK {tk}: PE={item['pe']}, MktCap={item['mkt_cap_b']}B {currency}")
-        except Exception as e:
-            print(f"  ERR {tk}: info fetch failed: {e}")
+        pe = metadata.get("pe")
+        mkt_cap = metadata.get("mkt_cap")
+        currency = metadata.get("currency", "")
+
+        item["pe"] = round(pe, 1) if pe else None
+        item["mkt_cap_b"] = round(mkt_cap / 1e9, 1) if mkt_cap else None
+        item["currency"] = currency
+        print(f"  OK {tk}: PE={item['pe']}, MktCap={item['mkt_cap_b']}B {currency}")
 
     return results
 
