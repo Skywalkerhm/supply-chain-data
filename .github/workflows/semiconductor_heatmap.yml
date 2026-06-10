@@ -1,0 +1,43 @@
+name: Semiconductor Heatmap
+
+on:
+  # Run on weekdays at 17:30 HKT (09:30 UTC), after US market opens and
+  # Asian/European markets are settled, so most tickers have fresh data.
+  schedule:
+    - cron: '30 9 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install yfinance
+
+      - name: Generate semiconductor heatmap JSON
+        run: python scripts/semiconductor_heatmap.py
+
+      - name: Show output preview
+        run: head -50 semiconductor_heatmap.json
+
+      - name: Commit updated heatmap JSON
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add semiconductor_heatmap.json
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "Update semiconductor heatmap data $(date -u +%Y-%m-%d)"
+          git push
