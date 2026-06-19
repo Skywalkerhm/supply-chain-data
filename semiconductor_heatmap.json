@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18 19:01 HKT",
+  "updated": "2026-06-19 19:06 HKT",
   "chain": "semiconductor",
   "stocks": [
     {
@@ -10,9 +10,9 @@
       "change_pct": -1.33,
       "mtd_pct": -2.96,
       "ytd_pct": 9.87,
-      "pe": 16.1,
+      "pe": 16.6,
       "pe_type": "forward",
-      "mkt_cap_b": 4956.8,
+      "mkt_cap_b": 5103.1,
       "currency": "USD"
     },
     {
@@ -23,9 +23,9 @@
       "change_pct": 1.02,
       "mtd_pct": -0.7,
       "ytd_pct": 139.3,
-      "pe": 39.1,
+      "pe": 41.0,
       "pe_type": "forward",
-      "mkt_cap_b": 835.7,
+      "mkt_cap_b": 876.2,
       "currency": "USD"
     },
     {
@@ -36,9 +36,9 @@
       "change_pct": -0.51,
       "mtd_pct": -14.84,
       "ytd_pct": 25.77,
-      "pe": 20.0,
+      "pe": 21.2,
       "pe_type": "forward",
-      "mkt_cap_b": 224.5,
+      "mkt_cap_b": 238.3,
       "currency": "USD"
     },
     {
@@ -49,9 +49,9 @@
       "change_pct": 3.9,
       "mtd_pct": 41.24,
       "ytd_pct": 241.13,
-      "pe": 46.9,
+      "pe": 50.3,
       "pe_type": "forward",
-      "mkt_cap_b": 253.3,
+      "mkt_cap_b": 271.9,
       "currency": "USD"
     },
     {
@@ -62,9 +62,9 @@
       "change_pct": -1.59,
       "mtd_pct": -0.57,
       "ytd_pct": 49.31,
-      "pe": 23.0,
+      "pe": 24.4,
       "pe_type": "forward",
-      "mkt_cap_b": 51.0,
+      "mkt_cap_b": 54.1,
       "currency": "USD"
     },
     {
@@ -75,9 +75,9 @@
       "change_pct": -1.55,
       "mtd_pct": -7.2,
       "ytd_pct": 38.09,
-      "pe": 16.9,
+      "pe": 17.8,
       "pe_type": "forward",
-      "mkt_cap_b": 75.3,
+      "mkt_cap_b": 79.1,
       "currency": "USD"
     },
     {
@@ -88,9 +88,9 @@
       "change_pct": -1.6,
       "mtd_pct": 5.84,
       "ytd_pct": 183.61,
-      "pe": 29.8,
+      "pe": 31.9,
       "pe_type": "forward",
-      "mkt_cap_b": 65.2,
+      "mkt_cap_b": 69.7,
       "currency": "USD"
     },
     {
@@ -205,9 +205,9 @@
       "change_pct": 2.98,
       "mtd_pct": -2.92,
       "ytd_pct": -1.7,
-      "pe": 26.8,
+      "pe": 26.4,
       "pe_type": "forward",
-      "mkt_cap_b": 88.4,
+      "mkt_cap_b": 87.2,
       "currency": "USD"
     },
     {
@@ -218,9 +218,9 @@
       "change_pct": 0.45,
       "mtd_pct": 3.91,
       "ytd_pct": 24.64,
-      "pe": 41.5,
+      "pe": 41.3,
       "pe_type": "forward",
-      "mkt_cap_b": 107.5,
+      "mkt_cap_b": 106.8,
       "currency": "USD"
     },
     {
@@ -257,9 +257,9 @@
       "change_pct": 1.48,
       "mtd_pct": 3.52,
       "ytd_pct": 42.94,
-      "pe": 22.0,
+      "pe": 23.5,
       "pe_type": "forward",
-      "mkt_cap_b": 2241.3,
+      "mkt_cap_b": 2396.8,
       "currency": "USD"
     },
     {
@@ -283,9 +283,9 @@
       "change_pct": 0.65,
       "mtd_pct": -1.89,
       "ytd_pct": 176.84,
-      "pe": 26.7,
+      "pe": 29.5,
       "pe_type": "forward",
-      "mkt_cap_b": 54.6,
+      "mkt_cap_b": 60.4,
       "currency": "USD"
     },
     {
@@ -348,35 +348,35 @@
       "change_pct": 0.9,
       "mtd_pct": 0.84,
       "ytd_pct": 130.93,
-      "pe": 32.0,
+      "pe": 34.1,
       "pe_type": "forward",
-      "mkt_cap_b": 44.2,
+      "mkt_cap_b": 47.1,
       "currency": "USD"
     },
     {
       "ticker": "005930.KS",
       "name": "三星电子",
       "sector": "memory",
-      "price": 362500.0,
-      "change_pct": 4.62,
-      "mtd_pct": 14.35,
-      "ytd_pct": 202.96,
-      "pe": 6.2,
+      "price": 354000.0,
+      "change_pct": -2.34,
+      "mtd_pct": 11.67,
+      "ytd_pct": 195.86,
+      "pe": 6.1,
       "pe_type": "forward",
-      "mkt_cap_b": 2380379.3,
+      "mkt_cap_b": 2324563.5,
       "currency": "KRW"
     },
     {
       "ticker": "000660.KS",
       "name": "SK海力士",
       "sector": "memory",
-      "price": 2685000.0,
-      "change_pct": 6.51,
-      "mtd_pct": 15.09,
-      "ytd_pct": 313.27,
-      "pe": 6.5,
+      "price": 2764000.0,
+      "change_pct": 2.94,
+      "mtd_pct": 18.47,
+      "ytd_pct": 325.43,
+      "pe": 6.7,
       "pe_type": "forward",
-      "mkt_cap_b": 1905960.5,
+      "mkt_cap_b": 1962039.0,
       "currency": "KRW"
     },
     {
@@ -387,9 +387,9 @@
       "change_pct": 2.2,
       "mtd_pct": 7.43,
       "ytd_pct": 265.66,
-      "pe": 9.1,
+      "pe": 9.9,
       "pe_type": "forward",
-      "mkt_cap_b": 1176.4,
+      "mkt_cap_b": 1278.8,
       "currency": "USD"
     },
     {
@@ -400,9 +400,9 @@
       "change_pct": 4.56,
       "mtd_pct": 34.09,
       "ytd_pct": 313.69,
-      "pe": 39.4,
+      "pe": 41.3,
       "pe_type": "forward",
-      "mkt_cap_b": 245.5,
+      "mkt_cap_b": 257.2,
       "currency": "USD"
     },
     {
@@ -465,9 +465,9 @@
       "change_pct": -1.25,
       "mtd_pct": -1.24,
       "ytd_pct": 76.03,
-      "pe": 32.0,
+      "pe": 34.3,
       "pe_type": "forward",
-      "mkt_cap_b": 274.7,
+      "mkt_cap_b": 293.8,
       "currency": "USD"
     },
     {
@@ -478,22 +478,22 @@
       "change_pct": -0.37,
       "mtd_pct": 0.42,
       "ytd_pct": 53.72,
-      "pe": 28.1,
+      "pe": 29.4,
       "pe_type": "forward",
-      "mkt_cap_b": 201.9,
+      "mkt_cap_b": 211.6,
       "currency": "USD"
     },
     {
       "ticker": "IFX.DE",
       "name": "英飞凌",
       "sector": "analog_power",
-      "price": 80.49,
-      "change_pct": 4.45,
-      "mtd_pct": -0.76,
-      "ytd_pct": 114.97,
-      "pe": 31.1,
+      "price": 82.97,
+      "change_pct": 1.17,
+      "mtd_pct": 2.29,
+      "ytd_pct": 121.6,
+      "pe": 32.1,
       "pe_type": "forward",
-      "mkt_cap_b": 104.6,
+      "mkt_cap_b": 107.9,
       "currency": "EUR"
     },
     {
@@ -504,9 +504,9 @@
       "change_pct": -4.51,
       "mtd_pct": -6.38,
       "ytd_pct": 108.53,
-      "pe": 26.4,
+      "pe": 28.4,
       "pe_type": "forward",
-      "mkt_cap_b": 43.9,
+      "mkt_cap_b": 47.3,
       "currency": "USD"
     },
     {
@@ -608,9 +608,9 @@
       "change_pct": 3.54,
       "mtd_pct": 15.82,
       "ytd_pct": 75.2,
-      "pe": 38.8,
+      "pe": 40.1,
       "pe_type": "forward",
-      "mkt_cap_b": 719.9,
+      "mkt_cap_b": 743.7,
       "currency": "USD"
     },
     {
@@ -621,9 +621,9 @@
       "change_pct": 4.35,
       "mtd_pct": 31.74,
       "ytd_pct": 131.29,
-      "pe": 36.5,
+      "pe": 38.0,
       "pe_type": "forward",
-      "mkt_cap_b": 470.8,
+      "mkt_cap_b": 490.0,
       "currency": "USD"
     },
     {
@@ -634,9 +634,9 @@
       "change_pct": 1.38,
       "mtd_pct": 17.68,
       "ytd_pct": 119.0,
-      "pe": 46.9,
+      "pe": 48.8,
       "pe_type": "forward",
-      "mkt_cap_b": 467.9,
+      "mkt_cap_b": 486.5,
       "currency": "USD"
     },
     {
@@ -647,9 +647,9 @@
       "change_pct": 0.59,
       "mtd_pct": 24.23,
       "ytd_pct": 96.98,
-      "pe": 47.3,
+      "pe": 51.4,
       "pe_type": "forward",
-      "mkt_cap_b": 311.8,
+      "mkt_cap_b": 339.1,
       "currency": "USD"
     },
     {
@@ -660,9 +660,9 @@
       "change_pct": -0.19,
       "mtd_pct": 9.15,
       "ytd_pct": 111.24,
-      "pe": 43.0,
+      "pe": 46.1,
       "pe_type": "forward",
-      "mkt_cap_b": 64.0,
+      "mkt_cap_b": 68.6,
       "currency": "USD"
     },
     {
@@ -773,26 +773,26 @@
       "ticker": "4063.T",
       "name": "信越化学",
       "sector": "materials",
-      "price": 7459.0,
-      "change_pct": -1.19,
-      "mtd_pct": -3.85,
-      "ytd_pct": 54.4,
-      "pe": 22.6,
+      "price": 7310.0,
+      "change_pct": -2.0,
+      "mtd_pct": -5.77,
+      "ytd_pct": 51.32,
+      "pe": 22.2,
       "pe_type": "forward",
-      "mkt_cap_b": 13870.4,
+      "mkt_cap_b": 13593.3,
       "currency": "JPY"
     },
     {
       "ticker": "3436.T",
       "name": "SUMCO",
       "sector": "materials",
-      "price": 4320.0,
-      "change_pct": 4.05,
-      "mtd_pct": 8.16,
-      "ytd_pct": 201.05,
-      "pe": 87.8,
+      "price": 4254.0,
+      "change_pct": -1.53,
+      "mtd_pct": 6.51,
+      "ytd_pct": 196.45,
+      "pe": 86.4,
       "pe_type": "forward",
-      "mkt_cap_b": 1510.8,
+      "mkt_cap_b": 1487.7,
       "currency": "JPY"
     },
     {
@@ -946,9 +946,9 @@
       "change_pct": -0.14,
       "mtd_pct": 24.39,
       "ytd_pct": 119.59,
-      "pe": 35.2,
+      "pe": 36.9,
       "pe_type": "forward",
-      "mkt_cap_b": 21.4,
+      "mkt_cap_b": 22.4,
       "currency": "USD"
     },
     {
