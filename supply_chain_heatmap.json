@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26 17:00 HKT",
+  "updated": "2026-08-28 03:04 HKT",
   "stocks": [
     {
       "ticker": "5706.T",
@@ -9,9 +9,9 @@
       "change_pct": 2.45,
       "mtd_pct": -6.22,
       "ytd_pct": 65.35,
-      "pe": 48.3,
+      "pe": 48.0,
       "pe_type": "forward",
-      "mkt_cap_b": 1660.7,
+      "mkt_cap_b": 1650.7,
       "currency": "JPY"
     },
     {
@@ -22,9 +22,9 @@
       "change_pct": -2.38,
       "mtd_pct": 24.17,
       "ytd_pct": 292.78,
-      "pe": 13.2,
+      "pe": 13.8,
       "pe_type": "forward",
-      "mkt_cap_b": 2747.2,
+      "mkt_cap_b": 2876.6,
       "currency": "JPY"
     },
     {
@@ -35,9 +35,9 @@
       "change_pct": -1.37,
       "mtd_pct": 21.21,
       "ytd_pct": 124.74,
-      "pe": 28.5,
+      "pe": 30.9,
       "pe_type": "forward",
-      "mkt_cap_b": 50.7,
+      "mkt_cap_b": 54.8,
       "currency": "CNY"
     },
     {
@@ -48,9 +48,9 @@
       "change_pct": -2.45,
       "mtd_pct": 30.5,
       "ytd_pct": 214.53,
-      "pe": 539.1,
+      "pe": 572.6,
       "pe_type": "forward",
-      "mkt_cap_b": 89.4,
+      "mkt_cap_b": 94.9,
       "currency": "CNY"
     },
     {
@@ -61,9 +61,9 @@
       "change_pct": 6.28,
       "mtd_pct": 26.5,
       "ytd_pct": 1.57,
-      "pe": 158.2,
+      "pe": 169.9,
       "pe_type": "trailing",
-      "mkt_cap_b": 15.7,
+      "mkt_cap_b": 16.9,
       "currency": "CNY"
     },
     {
@@ -74,9 +74,9 @@
       "change_pct": 4.78,
       "mtd_pct": 50.84,
       "ytd_pct": 63.02,
-      "pe": 19.5,
+      "pe": 21.4,
       "pe_type": "forward",
-      "mkt_cap_b": 113.5,
+      "mkt_cap_b": 124.7,
       "currency": "TWD"
     },
     {
@@ -87,9 +87,9 @@
       "change_pct": 1.75,
       "mtd_pct": 17.26,
       "ytd_pct": 3.29,
-      "pe": 246.9,
+      "pe": 255.7,
       "pe_type": "forward",
-      "mkt_cap_b": 685.4,
+      "mkt_cap_b": 709.9,
       "currency": "KRW"
     },
     {
@@ -100,9 +100,9 @@
       "change_pct": -2.36,
       "mtd_pct": 3.61,
       "ytd_pct": 42.87,
-      "pe": 9.8,
+      "pe": 10.1,
       "pe_type": "forward",
-      "mkt_cap_b": 528.1,
+      "mkt_cap_b": 543.7,
       "currency": "JPY"
     },
     {
@@ -113,9 +113,9 @@
       "change_pct": -0.49,
       "mtd_pct": -5.63,
       "ytd_pct": 18.69,
-      "pe": 16.2,
+      "pe": 16.4,
       "pe_type": "forward",
-      "mkt_cap_b": 2178.1,
+      "mkt_cap_b": 2209.6,
       "currency": "JPY"
     },
     {
@@ -126,9 +126,9 @@
       "change_pct": 1.92,
       "mtd_pct": 15.76,
       "ytd_pct": 38.21,
-      "pe": 21.3,
+      "pe": 22.4,
       "pe_type": "forward",
-      "mkt_cap_b": 83.8,
+      "mkt_cap_b": 88.1,
       "currency": "CNY"
     },
     {
@@ -139,9 +139,9 @@
       "change_pct": 0.57,
       "mtd_pct": 4.52,
       "ytd_pct": 263.95,
-      "pe": 78.5,
+      "pe": 82.5,
       "pe_type": "forward",
-      "mkt_cap_b": 121.1,
+      "mkt_cap_b": 127.3,
       "currency": "CNY"
     },
     {
@@ -152,9 +152,9 @@
       "change_pct": 6.47,
       "mtd_pct": 21.85,
       "ytd_pct": -11.6,
-      "pe": 52.2,
+      "pe": 52.7,
       "pe_type": "forward",
-      "mkt_cap_b": 46.6,
+      "mkt_cap_b": 47.1,
       "currency": "CNY"
     },
     {
@@ -165,9 +165,9 @@
       "change_pct": -1.76,
       "mtd_pct": -7.41,
       "ytd_pct": 323.32,
-      "pe": 164.6,
+      "pe": 173.0,
       "pe_type": "trailing",
-      "mkt_cap_b": 111.7,
+      "mkt_cap_b": 117.4,
       "currency": "CNY"
     },
     {
@@ -178,9 +178,9 @@
       "change_pct": -0.73,
       "mtd_pct": 4.39,
       "ytd_pct": 132.06,
-      "pe": 20.5,
+      "pe": 22.1,
       "pe_type": "forward",
-      "mkt_cap_b": 158.1,
+      "mkt_cap_b": 170.7,
       "currency": "CNY"
     },
     {
@@ -191,9 +191,9 @@
       "change_pct": 1.02,
       "mtd_pct": -7.88,
       "ytd_pct": 38.07,
-      "pe": 14.0,
+      "pe": 14.1,
       "pe_type": "forward",
-      "mkt_cap_b": 754.7,
+      "mkt_cap_b": 760.6,
       "currency": "JPY"
     },
     {
@@ -204,9 +204,9 @@
       "change_pct": 1.02,
       "mtd_pct": 10.46,
       "ytd_pct": 34.61,
-      "pe": 19.5,
+      "pe": 20.8,
       "pe_type": "forward",
-      "mkt_cap_b": 31.9,
+      "mkt_cap_b": 34.0,
       "currency": "CNY"
     },
     {
@@ -217,9 +217,9 @@
       "change_pct": -1.14,
       "mtd_pct": 16.54,
       "ytd_pct": 145.1,
-      "pe": 64.2,
+      "pe": 65.8,
       "pe_type": "forward",
-      "mkt_cap_b": 3034.4,
+      "mkt_cap_b": 3109.3,
       "currency": "JPY"
     },
     {
@@ -232,7 +232,7 @@
       "ytd_pct": 47.81,
       "pe": 27.2,
       "pe_type": "forward",
-      "mkt_cap_b": 661.5,
+      "mkt_cap_b": 661.0,
       "currency": "JPY"
     },
     {
@@ -243,9 +243,9 @@
       "change_pct": 5.36,
       "mtd_pct": 24.24,
       "ytd_pct": 258.36,
-      "pe": 26.1,
+      "pe": 24.4,
       "pe_type": "forward",
-      "mkt_cap_b": 2112.3,
+      "mkt_cap_b": 1970.8,
       "currency": "TWD"
     },
     {
@@ -256,9 +256,9 @@
       "change_pct": 10.0,
       "mtd_pct": 121.67,
       "ytd_pct": 417.97,
-      "pe": 28.3,
+      "pe": 27.4,
       "pe_type": "forward",
-      "mkt_cap_b": 212.0,
+      "mkt_cap_b": 204.7,
       "currency": "TWD"
     },
     {
@@ -269,9 +269,9 @@
       "change_pct": 3.03,
       "mtd_pct": 37.84,
       "ytd_pct": 212.19,
-      "pe": 20.4,
+      "pe": 19.2,
       "pe_type": "forward",
-      "mkt_cap_b": 441.8,
+      "mkt_cap_b": 417.3,
       "currency": "TWD"
     },
     {
@@ -282,9 +282,9 @@
       "change_pct": 0.78,
       "mtd_pct": 23.07,
       "ytd_pct": 83.08,
-      "pe": 26.8,
+      "pe": 29.0,
       "pe_type": "forward",
-      "mkt_cap_b": 315.8,
+      "mkt_cap_b": 342.4,
       "currency": "CNY"
     },
     {
@@ -295,9 +295,9 @@
       "change_pct": 0.4,
       "mtd_pct": 62.38,
       "ytd_pct": 253.96,
-      "pe": 115.4,
+      "pe": 120.7,
       "pe_type": "forward",
-      "mkt_cap_b": 27.5,
+      "mkt_cap_b": 28.8,
       "currency": "CNY"
     },
     {
@@ -308,9 +308,9 @@
       "change_pct": -0.45,
       "mtd_pct": 35.15,
       "ytd_pct": 204.3,
-      "pe": 12.4,
+      "pe": 12.6,
       "pe_type": "forward",
-      "mkt_cap_b": 125.3,
+      "mkt_cap_b": 138.5,
       "currency": "HKD"
     },
     {
@@ -321,22 +321,22 @@
       "change_pct": 0.77,
       "mtd_pct": 1.4,
       "ytd_pct": 116.3,
-      "pe": 25.7,
+      "pe": 25.9,
       "pe_type": "forward",
-      "mkt_cap_b": 10142.9,
+      "mkt_cap_b": 10215.3,
       "currency": "JPY"
     },
     {
       "ticker": "ROG",
       "name": "Rogers",
       "sector": "ccl",
-      "price": 124.74,
-      "change_pct": 1.55,
-      "mtd_pct": 1.03,
-      "ytd_pct": 36.22,
-      "pe": 28.0,
+      "price": 128.55,
+      "change_pct": 1.91,
+      "mtd_pct": 4.12,
+      "ytd_pct": 40.39,
+      "pe": 28.9,
       "pe_type": "forward",
-      "mkt_cap_b": 2.2,
+      "mkt_cap_b": 2.3,
       "currency": "USD"
     },
     {
@@ -347,9 +347,9 @@
       "change_pct": -0.16,
       "mtd_pct": 7.12,
       "ytd_pct": 74.23,
-      "pe": 26.1,
+      "pe": 26.7,
       "pe_type": "forward",
-      "mkt_cap_b": 202.3,
+      "mkt_cap_b": 206.7,
       "currency": "CNY"
     },
     {
@@ -360,9 +360,9 @@
       "change_pct": 5.94,
       "mtd_pct": 47.4,
       "ytd_pct": 428.35,
-      "pe": 30.8,
+      "pe": 31.4,
       "pe_type": "forward",
-      "mkt_cap_b": 1847.7,
+      "mkt_cap_b": 1879.6,
       "currency": "TWD"
     },
     {
@@ -373,9 +373,9 @@
       "change_pct": 7.11,
       "mtd_pct": 31.15,
       "ytd_pct": 52.45,
-      "pe": 16.2,
+      "pe": 16.1,
       "pe_type": "forward",
-      "mkt_cap_b": 532.4,
+      "mkt_cap_b": 527.3,
       "currency": "TWD"
     },
     {
@@ -399,9 +399,9 @@
       "change_pct": 4.31,
       "mtd_pct": 14.91,
       "ytd_pct": 63.92,
-      "pe": 25.7,
+      "pe": 26.3,
       "pe_type": "forward",
-      "mkt_cap_b": 229.4,
+      "mkt_cap_b": 234.8,
       "currency": "CNY"
     },
     {
@@ -412,9 +412,9 @@
       "change_pct": 1.82,
       "mtd_pct": 31.01,
       "ytd_pct": -12.7,
-      "pe": 16.5,
+      "pe": 17.4,
       "pe_type": "forward",
-      "mkt_cap_b": 245.1,
+      "mkt_cap_b": 258.5,
       "currency": "CNY"
     },
     {
@@ -425,9 +425,9 @@
       "change_pct": 3.35,
       "mtd_pct": 12.65,
       "ytd_pct": 11.77,
-      "pe": 23.4,
+      "pe": 26.7,
       "pe_type": "forward",
-      "mkt_cap_b": 89.2,
+      "mkt_cap_b": 101.9,
       "currency": "CNY"
     },
     {
@@ -438,9 +438,9 @@
       "change_pct": 2.06,
       "mtd_pct": 13.0,
       "ytd_pct": 50.73,
-      "pe": 30.5,
+      "pe": 32.0,
       "pe_type": "forward",
-      "mkt_cap_b": 237.1,
+      "mkt_cap_b": 248.7,
       "currency": "CNY"
     },
     {
@@ -451,9 +451,9 @@
       "change_pct": 0.5,
       "mtd_pct": 20.6,
       "ytd_pct": 198.86,
-      "pe": 65.0,
+      "pe": 66.5,
       "pe_type": "forward",
-      "mkt_cap_b": 5644.4,
+      "mkt_cap_b": 5775.1,
       "currency": "JPY"
     },
     {
@@ -477,9 +477,9 @@
       "change_pct": -1.47,
       "mtd_pct": 9.08,
       "ytd_pct": 64.15,
-      "pe": 23.3,
+      "pe": 23.4,
       "pe_type": "forward",
-      "mkt_cap_b": 5163.3,
+      "mkt_cap_b": 5187.1,
       "currency": "JPY"
     },
     {
@@ -490,9 +490,9 @@
       "change_pct": 1.72,
       "mtd_pct": 28.26,
       "ytd_pct": 390.65,
-      "pe": 28.3,
+      "pe": 31.0,
       "pe_type": "forward",
-      "mkt_cap_b": 762.5,
+      "mkt_cap_b": 836.8,
       "currency": "TWD"
     },
     {
@@ -503,9 +503,9 @@
       "change_pct": 2.11,
       "mtd_pct": 22.88,
       "ytd_pct": 78.17,
-      "pe": 17.4,
+      "pe": 17.5,
       "pe_type": "forward",
-      "mkt_cap_b": 103.1,
+      "mkt_cap_b": 104.0,
       "currency": "TWD"
     },
     {
@@ -516,9 +516,9 @@
       "change_pct": 2.03,
       "mtd_pct": 9.55,
       "ytd_pct": 221.19,
-      "pe": 18.5,
+      "pe": 19.5,
       "pe_type": "forward",
-      "mkt_cap_b": 489.0,
+      "mkt_cap_b": 514.9,
       "currency": "TWD"
     },
     {
@@ -529,9 +529,9 @@
       "change_pct": -2.35,
       "mtd_pct": 16.46,
       "ytd_pct": 421.57,
-      "pe": 31.9,
+      "pe": 33.2,
       "pe_type": "forward",
-      "mkt_cap_b": 100477.8,
+      "mkt_cap_b": 104632.9,
       "currency": "KRW"
     },
     {
@@ -542,9 +542,9 @@
       "change_pct": -3.59,
       "mtd_pct": 35.95,
       "ytd_pct": 128.37,
-      "pe": 14.2,
+      "pe": 16.0,
       "pe_type": "forward",
-      "mkt_cap_b": 4207.5,
+      "mkt_cap_b": 4737.7,
       "currency": "KRW"
     },
     {
@@ -555,22 +555,22 @@
       "change_pct": -3.43,
       "mtd_pct": 10.54,
       "ytd_pct": 128.48,
-      "pe": 17.0,
+      "pe": 17.7,
       "pe_type": "forward",
-      "mkt_cap_b": 5511.8,
+      "mkt_cap_b": 5733.3,
       "currency": "KRW"
     },
     {
       "ticker": "ATS.VI",
       "name": "AT&S",
       "sector": "ic_sub",
-      "price": 136.0,
-      "change_pct": 0.74,
-      "mtd_pct": 3.98,
-      "ytd_pct": 322.36,
-      "pe": 16.0,
+      "price": 146.8,
+      "change_pct": 6.38,
+      "mtd_pct": 12.23,
+      "ytd_pct": 355.9,
+      "pe": 17.2,
       "pe_type": "forward",
-      "mkt_cap_b": 5.3,
+      "mkt_cap_b": 5.7,
       "currency": "EUR"
     },
     {
@@ -581,9 +581,9 @@
       "change_pct": -0.58,
       "mtd_pct": 12.04,
       "ytd_pct": 100.38,
-      "pe": 49.5,
+      "pe": 51.4,
       "pe_type": "forward",
-      "mkt_cap_b": 131.7,
+      "mkt_cap_b": 137.0,
       "currency": "CNY"
     },
     {
@@ -594,9 +594,9 @@
       "change_pct": 0.57,
       "mtd_pct": 7.97,
       "ytd_pct": 62.65,
-      "pe": 77.5,
+      "pe": 80.7,
       "pe_type": "forward",
-      "mkt_cap_b": 93.0,
+      "mkt_cap_b": 96.7,
       "currency": "CNY"
     },
     {
@@ -607,20 +607,20 @@
       "change_pct": -0.03,
       "mtd_pct": 21.05,
       "ytd_pct": 57.43,
-      "pe": 46.8,
+      "pe": 50.2,
       "pe_type": "forward",
-      "mkt_cap_b": 56.6,
+      "mkt_cap_b": 60.7,
       "currency": "CNY"
     },
     {
       "ticker": "AXTI",
       "name": "AXT Inc",
       "sector": "optical_chip",
-      "price": 67.45,
-      "change_pct": 3.13,
-      "mtd_pct": 11.62,
-      "ytd_pct": 312.54,
-      "pe": 30.3,
+      "price": 67.04,
+      "change_pct": 2.85,
+      "mtd_pct": 10.94,
+      "ytd_pct": 310.03,
+      "pe": 30.2,
       "pe_type": "forward",
       "mkt_cap_b": 4.4,
       "currency": "USD"
@@ -629,11 +629,11 @@
       "ticker": "IQE.L",
       "name": "IQE",
       "sector": "optical_chip",
-      "price": 46.88,
-      "change_pct": -1.21,
-      "mtd_pct": 19.88,
-      "ytd_pct": 837.5,
-      "pe": -239.2,
+      "price": 48.8,
+      "change_pct": 3.83,
+      "mtd_pct": 24.81,
+      "ytd_pct": 876.0,
+      "pe": -249.0,
       "pe_type": "forward",
       "mkt_cap_b": 0.6,
       "currency": "GBp"
@@ -646,9 +646,9 @@
       "change_pct": 0.79,
       "mtd_pct": 1.4,
       "ytd_pct": 97.77,
-      "pe": 34.2,
+      "pe": 33.6,
       "pe_type": "trailing",
-      "mkt_cap_b": 3574.6,
+      "mkt_cap_b": 3520.7,
       "currency": "JPY"
     },
     {
@@ -659,9 +659,9 @@
       "change_pct": 2.03,
       "mtd_pct": 46.58,
       "ytd_pct": 184.43,
-      "pe": 48.7,
+      "pe": 49.3,
       "pe_type": "forward",
-      "mkt_cap_b": 79.1,
+      "mkt_cap_b": 80.1,
       "currency": "TWD"
     },
     {
@@ -685,48 +685,48 @@
       "change_pct": -0.81,
       "mtd_pct": 39.61,
       "ytd_pct": 194.42,
-      "pe": 64.9,
+      "pe": 70.4,
       "pe_type": "forward",
-      "mkt_cap_b": 61.0,
+      "mkt_cap_b": 66.2,
       "currency": "CNY"
     },
     {
       "ticker": "AVGO",
       "name": "Broadcom",
       "sector": "optical_chip",
-      "price": 356.74,
-      "change_pct": -0.56,
-      "mtd_pct": -8.36,
-      "ytd_pct": 3.45,
-      "pe": 18.3,
+      "price": 369.46,
+      "change_pct": 3.9,
+      "mtd_pct": -5.09,
+      "ytd_pct": 7.14,
+      "pe": 19.0,
       "pe_type": "forward",
-      "mkt_cap_b": 1697.2,
+      "mkt_cap_b": 1758.5,
       "currency": "USD"
     },
     {
       "ticker": "MRVL",
       "name": "Marvell",
       "sector": "optical_chip",
-      "price": 240.38,
-      "change_pct": 4.84,
-      "mtd_pct": 28.16,
-      "ytd_pct": 183.28,
-      "pe": 38.3,
+      "price": 243.65,
+      "change_pct": -0.6,
+      "mtd_pct": 29.91,
+      "ytd_pct": 187.14,
+      "pe": 38.6,
       "pe_type": "forward",
-      "mkt_cap_b": 216.0,
+      "mkt_cap_b": 219.1,
       "currency": "USD"
     },
     {
       "ticker": "LITE",
       "name": "Lumentum",
       "sector": "optical_chip",
-      "price": 885.57,
-      "change_pct": 6.67,
-      "mtd_pct": 24.04,
-      "ytd_pct": 140.26,
-      "pe": 26.8,
+      "price": 946.45,
+      "change_pct": 0.79,
+      "mtd_pct": 32.57,
+      "ytd_pct": 156.78,
+      "pe": 28.7,
       "pe_type": "forward",
-      "mkt_cap_b": 79.4,
+      "mkt_cap_b": 85.0,
       "currency": "USD"
     },
     {
@@ -737,9 +737,9 @@
       "change_pct": -0.84,
       "mtd_pct": 41.01,
       "ytd_pct": 248.05,
-      "pe": 115.1,
+      "pe": 121.9,
       "pe_type": "forward",
-      "mkt_cap_b": 191.7,
+      "mkt_cap_b": 203.1,
       "currency": "CNY"
     },
     {
@@ -750,9 +750,9 @@
       "change_pct": -1.37,
       "mtd_pct": 48.28,
       "ytd_pct": 75.27,
-      "pe": 36.1,
+      "pe": 38.0,
       "pe_type": "forward",
-      "mkt_cap_b": 276.6,
+      "mkt_cap_b": 291.4,
       "currency": "CNY"
     },
     {
@@ -763,9 +763,9 @@
       "change_pct": 0.33,
       "mtd_pct": 3.85,
       "ytd_pct": 140.0,
-      "pe": 48.7,
+      "pe": 51.1,
       "pe_type": "forward",
-      "mkt_cap_b": 139.0,
+      "mkt_cap_b": 146.0,
       "currency": "CNY"
     },
     {
@@ -776,9 +776,9 @@
       "change_pct": -1.95,
       "mtd_pct": 38.83,
       "ytd_pct": 93.96,
-      "pe": 570.0,
+      "pe": 601.8,
       "pe_type": "forward",
-      "mkt_cap_b": 71.0,
+      "mkt_cap_b": 75.0,
       "currency": "CNY"
     },
     {
@@ -789,9 +789,9 @@
       "change_pct": -0.21,
       "mtd_pct": 27.09,
       "ytd_pct": 130.54,
-      "pe": 1699.9,
+      "pe": 1793.0,
       "pe_type": "forward",
-      "mkt_cap_b": 50.9,
+      "mkt_cap_b": 53.7,
       "currency": "CNY"
     },
     {
@@ -804,7 +804,7 @@
       "ytd_pct": 39.66,
       "pe": 13.0,
       "pe_type": "forward",
-      "mkt_cap_b": 995.3,
+      "mkt_cap_b": 1013.1,
       "currency": "CNY"
     },
     {
@@ -815,22 +815,22 @@
       "change_pct": -0.52,
       "mtd_pct": 0.7,
       "ytd_pct": 29.81,
-      "pe": 11.2,
+      "pe": 11.5,
       "pe_type": "forward",
-      "mkt_cap_b": 556.0,
+      "mkt_cap_b": 570.4,
       "currency": "CNY"
     },
     {
       "ticker": "COHR",
       "name": "Coherent",
       "sector": "optical_mod",
-      "price": 288.14,
-      "change_pct": 4.59,
-      "mtd_pct": 9.6,
-      "ytd_pct": 56.11,
-      "pe": 20.7,
+      "price": 293.01,
+      "change_pct": -0.46,
+      "mtd_pct": 11.46,
+      "ytd_pct": 58.75,
+      "pe": 21.0,
       "pe_type": "forward",
-      "mkt_cap_b": 56.4,
+      "mkt_cap_b": 57.5,
       "currency": "USD"
     },
     {
@@ -841,9 +841,9 @@
       "change_pct": -1.4,
       "mtd_pct": 8.84,
       "ytd_pct": 31.06,
-      "pe": 39.8,
+      "pe": 40.2,
       "pe_type": "forward",
-      "mkt_cap_b": 104.4,
+      "mkt_cap_b": 105.5,
       "currency": "CNY"
     },
     {
@@ -854,19 +854,19 @@
       "change_pct": 10.0,
       "mtd_pct": 46.53,
       "ytd_pct": 42.24,
-      "pe": 374.2,
+      "pe": 388.6,
       "pe_type": "forward",
-      "mkt_cap_b": 70.3,
+      "mkt_cap_b": 73.0,
       "currency": "CNY"
     },
     {
       "ticker": "AAOI",
       "name": "AAOI",
       "sector": "optical_mod",
-      "price": 113.15,
-      "change_pct": 5.13,
-      "mtd_pct": 19.96,
-      "ytd_pct": 224.58,
+      "price": 112.85,
+      "change_pct": -0.8,
+      "mtd_pct": 19.64,
+      "ytd_pct": 223.71,
       "pe": 24.6,
       "pe_type": "forward",
       "mkt_cap_b": 9.6,
@@ -876,13 +876,13 @@
       "ticker": "FN",
       "name": "Fabrinet",
       "sector": "optical_mod",
-      "price": 431.54,
-      "change_pct": 2.47,
-      "mtd_pct": -0.89,
-      "ytd_pct": -5.21,
+      "price": 430.29,
+      "change_pct": -1.72,
+      "mtd_pct": -1.18,
+      "ytd_pct": -5.49,
       "pe": 19.8,
       "pe_type": "forward",
-      "mkt_cap_b": 15.5,
+      "mkt_cap_b": 15.4,
       "currency": "USD"
     },
     {
@@ -893,9 +893,9 @@
       "change_pct": -1.64,
       "mtd_pct": 43.03,
       "ytd_pct": 233.74,
-      "pe": 29.4,
+      "pe": 32.3,
       "pe_type": "forward",
-      "mkt_cap_b": 318.9,
+      "mkt_cap_b": 350.8,
       "currency": "CNY"
     },
     {
@@ -906,35 +906,35 @@
       "change_pct": 0.36,
       "mtd_pct": 36.17,
       "ytd_pct": 162.8,
-      "pe": 16.5,
+      "pe": 18.2,
       "pe_type": "forward",
-      "mkt_cap_b": 159.9,
+      "mkt_cap_b": 175.9,
       "currency": "CNY"
     },
     {
       "ticker": "GLW",
       "name": "Corning",
       "sector": "optical_infra",
-      "price": 147.16,
-      "change_pct": 1.11,
-      "mtd_pct": 6.44,
-      "ytd_pct": 68.64,
-      "pe": 34.1,
+      "price": 151.37,
+      "change_pct": -0.92,
+      "mtd_pct": 9.49,
+      "ytd_pct": 73.46,
+      "pe": 35.1,
       "pe_type": "forward",
-      "mkt_cap_b": 126.5,
+      "mkt_cap_b": 130.2,
       "currency": "USD"
     },
     {
       "ticker": "INTC",
       "name": "Intel",
       "sector": "glass",
-      "price": 87.48,
-      "change_pct": 0.25,
-      "mtd_pct": -3.02,
-      "ytd_pct": 137.07,
-      "pe": 42.9,
+      "price": 90.38,
+      "change_pct": 2.42,
+      "mtd_pct": 0.19,
+      "ytd_pct": 144.92,
+      "pe": 44.3,
       "pe_type": "forward",
-      "mkt_cap_b": 462.4,
+      "mkt_cap_b": 478.1,
       "currency": "USD"
     }
   ]
